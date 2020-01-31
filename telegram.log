@@ -1,0 +1,512 @@
+2020-01-31 17:17:22,525- salam
+2020-01-31 17:17:54,233- Entering: get_me
+2020-01-31 17:25:09,187 salam
+2020-01-31 17:25:39,823 Entering: get_me
+2020-01-31 17:25:39,825 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 17:25:46,320 Incremented Retry for (url='/bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe'): Retry(total=2, connect=None, read=None, redirect=None)
+2020-01-31 17:25:46,673 Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f5b982e0a00>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe
+2020-01-31 17:25:46,673 Starting new HTTPS connection (2): api.telegram.org
+2020-01-31 17:25:51,728 Incremented Retry for (url='/bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe'): Retry(total=1, connect=None, read=None, redirect=None)
+2020-01-31 17:25:51,729 Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f5b9402b100>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe
+2020-01-31 17:25:52,951 Starting new HTTPS connection (3): api.telegram.org
+2020-01-31 17:25:58,004 Incremented Retry for (url='/bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe'): Retry(total=0, connect=None, read=None, redirect=None)
+2020-01-31 17:25:58,004 Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f5b9402bdf0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe
+2020-01-31 17:25:58,005 Starting new HTTPS connection (4): api.telegram.org
+2020-01-31 17:26:18,775 salam
+2020-01-31 17:26:27,116 Entering: get_me
+2020-01-31 17:26:27,117 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 17:26:29,764 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 17:26:29,767 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 17:26:29,767 Exiting: get_me
+2020-01-31 17:26:32,784 Entering: get_me
+2020-01-31 17:26:33,147 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 17:26:33,149 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 17:26:33,149 Exiting: get_me
+2020-01-31 17:26:34,738 Entering: get_me
+2020-01-31 17:26:35,105 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 17:26:35,107 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 17:26:35,107 Exiting: get_me
+2020-01-31 18:00:58,666 salam
+2020-01-31 18:00:58,670 Entering: set_webhook
+2020-01-31 18:00:58,671 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:01:01,332 https://api.telegram.org:443 "POST /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/setWebhook HTTP/1.1" 200 57
+2020-01-31 18:01:01,334 True
+2020-01-31 18:01:01,334 Exiting: set_webhook
+2020-01-31 18:01:01,390 Entering: get_me
+2020-01-31 18:01:01,781 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:01:01,792 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:01:01,794 Exiting: get_me
+2020-01-31 18:01:10,562 127.0.0.1 - - [31/Jan/2020 18:01:10] "GET /api/v1/set-webhook HTTP/1.1" 500 -
+2020-01-31 18:01:12,302 127.0.0.1 - - [31/Jan/2020 18:01:12] "GET /api/v1/set-webhook?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-01-31 18:01:12,303 127.0.0.1 - - [31/Jan/2020 18:01:12] "GET /api/v1/set-webhook?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-01-31 18:01:12,304 127.0.0.1 - - [31/Jan/2020 18:01:12] "GET /api/v1/set-webhook?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-01-31 18:01:13,266 127.0.0.1 - - [31/Jan/2020 18:01:13] "GET /api/v1/set-webhook?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-01-31 18:01:13,424 127.0.0.1 - - [31/Jan/2020 18:01:13] "GET /api/v1/set-webhook?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-01-31 18:01:36,008  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:03:27,479 salam
+2020-01-31 18:03:27,482 Entering: set_webhook
+2020-01-31 18:03:27,482 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:03:28,973 https://api.telegram.org:443 "POST /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/setWebhook HTTP/1.1" 200 64
+2020-01-31 18:03:28,975 True
+2020-01-31 18:03:28,976 Exiting: set_webhook
+2020-01-31 18:03:29,011 Entering: get_me
+2020-01-31 18:03:29,381 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:03:29,391 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:03:29,393 Exiting: get_me
+2020-01-31 18:03:32,448 127.0.0.1 - - [31/Jan/2020 18:03:32] "GET /api/v1/set-webhook HTTP/1.1" 500 -
+2020-01-31 18:03:33,805 127.0.0.1 - - [31/Jan/2020 18:03:33] "GET /api/v1/set-webhook?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-01-31 18:03:33,806 127.0.0.1 - - [31/Jan/2020 18:03:33] "GET /api/v1/set-webhook?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-01-31 18:03:33,806 127.0.0.1 - - [31/Jan/2020 18:03:33] "GET /api/v1/set-webhook?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-01-31 18:03:35,889 127.0.0.1 - - [31/Jan/2020 18:03:35] "GET /api/v1/set-webhook?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-01-31 18:03:43,461  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:04:33,607 salam
+2020-01-31 18:04:33,611 Entering: set_webhook
+2020-01-31 18:04:33,611 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:04:35,051 https://api.telegram.org:443 "POST /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/setWebhook HTTP/1.1" 200 64
+2020-01-31 18:04:35,053 True
+2020-01-31 18:04:35,460 Exiting: set_webhook
+2020-01-31 18:04:35,506 Entering: get_me
+2020-01-31 18:04:35,903 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:04:35,911 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:04:35,913 Exiting: get_me
+2020-01-31 18:04:42,163 127.0.0.1 - - [31/Jan/2020 18:04:42] "GET /api/v1/set-webhook HTTP/1.1" 500 -
+2020-01-31 18:04:43,157 127.0.0.1 - - [31/Jan/2020 18:04:43] "GET /api/v1/set-webhook?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-01-31 18:04:43,158 127.0.0.1 - - [31/Jan/2020 18:04:43] "GET /api/v1/set-webhook?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-01-31 18:04:43,684 127.0.0.1 - - [31/Jan/2020 18:04:43] "GET /api/v1/set-webhook?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-01-31 18:04:44,462 127.0.0.1 - - [31/Jan/2020 18:04:44] "GET /api/v1/set-webhook?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-01-31 18:05:28,590  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:05:47,006 salam
+2020-01-31 18:05:47,009 Entering: set_webhook
+2020-01-31 18:05:47,010 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:05:48,513 https://api.telegram.org:443 "POST /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/setWebhook HTTP/1.1" 200 64
+2020-01-31 18:05:48,514 True
+2020-01-31 18:05:48,514 Exiting: set_webhook
+2020-01-31 18:05:48,516 127.0.0.1 - - [31/Jan/2020 18:05:48] "GET /api/v1/set-webhook HTTP/1.1" 200 -
+2020-01-31 18:06:51,645  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:06:59,561 salam
+2020-01-31 18:06:59,564 Entering: set_webhook
+2020-01-31 18:06:59,565 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:07:01,009 https://api.telegram.org:443 "POST /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/setWebhook HTTP/1.1" 200 64
+2020-01-31 18:07:01,011 True
+2020-01-31 18:07:01,011 Exiting: set_webhook
+2020-01-31 18:07:01,016 127.0.0.1 - - [31/Jan/2020 18:07:01] "GET /api/v1/set-webhook HTTP/1.1" 200 -
+2020-01-31 18:15:39,996 salam
+2020-01-31 18:15:39,999 Entering: set_webhook
+2020-01-31 18:15:40,000 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:15:41,425 https://api.telegram.org:443 "POST /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/setWebhook HTTP/1.1" 200 57
+2020-01-31 18:15:41,427 True
+2020-01-31 18:15:41,427 Exiting: set_webhook
+2020-01-31 18:15:41,432 127.0.0.1 - - [31/Jan/2020 18:15:41] "GET /api/v1/set-webhook HTTP/1.1" 200 -
+2020-01-31 18:16:34,468 127.0.0.1 - - [31/Jan/2020 18:16:34] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 405 -
+2020-01-31 18:16:36,818 127.0.0.1 - - [31/Jan/2020 18:16:36] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 405 -
+2020-01-31 18:16:41,170 127.0.0.1 - - [31/Jan/2020 18:16:41] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 405 -
+2020-01-31 18:16:49,800 127.0.0.1 - - [31/Jan/2020 18:16:49] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 405 -
+2020-01-31 18:16:55,632  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:17:06,309 salam
+2020-01-31 18:17:07,471 127.0.0.1 - - [31/Jan/2020 18:17:07] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 500 -
+2020-01-31 18:17:08,754  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:17:36,441 salam
+2020-01-31 18:17:36,509 Entering: get_me
+2020-01-31 18:17:36,518 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:17:37,980 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:17:37,993 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:17:37,995 Exiting: get_me
+2020-01-31 18:18:28,847  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:18:31,423 salam
+2020-01-31 18:18:44,803  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:18:49,361 salam
+2020-01-31 18:18:49,423 Entering: get_me
+2020-01-31 18:18:49,431 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:18:50,977 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:18:50,989 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:18:50,991 Exiting: get_me
+2020-01-31 18:18:58,819 127.0.0.1 - - [31/Jan/2020 18:18:58] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:19:11,869  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:19:21,993 salam
+2020-01-31 18:19:22,030 Entering: get_me
+2020-01-31 18:19:22,293 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:19:22,598  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:19:25,161 salam
+2020-01-31 18:19:25,193 Entering: get_me
+2020-01-31 18:19:25,206 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:19:26,747 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:19:26,760 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:19:26,762 Exiting: get_me
+2020-01-31 18:20:04,775 127.0.0.1 - - [31/Jan/2020 18:20:04] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:20:05,137 salam
+2020-01-31 18:20:05,172 Entering: get_me
+2020-01-31 18:20:05,181 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:20:06,675 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:20:07,360 127.0.0.1 - - [31/Jan/2020 18:20:07] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:20:07,682 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:20:07,688 Exiting: get_me
+2020-01-31 18:22:01,313  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:22:13,188 salam
+2020-01-31 18:22:13,226 Entering: get_me
+2020-01-31 18:22:13,243 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:22:14,706 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:22:14,718 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:22:14,720 Exiting: get_me
+2020-01-31 18:22:38,228 127.0.0.1 - - [31/Jan/2020 18:22:38] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:24:17,333  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:27:22,558 salam
+2020-01-31 18:27:22,595 Entering: get_me
+2020-01-31 18:27:22,604 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:27:24,092 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:27:24,104 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:27:24,106 Exiting: get_me
+2020-01-31 18:28:24,088 salam
+2020-01-31 18:28:24,133 Entering: get_me
+2020-01-31 18:28:24,139 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:28:25,650 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:28:25,659 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:28:25,662 Exiting: get_me
+2020-01-31 18:28:32,764 127.0.0.1 - - [31/Jan/2020 18:28:32] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:28:33,798 127.0.0.1 - - [31/Jan/2020 18:28:33] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:30:18,323 salam
+2020-01-31 18:30:18,356 Entering: get_me
+2020-01-31 18:30:18,364 Entering: get_me
+2020-01-31 18:30:18,362 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:30:18,365 Starting new HTTPS connection (2): api.telegram.org
+2020-01-31 18:30:19,904 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:30:19,913 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:30:19,915 Exiting: get_me
+2020-01-31 18:30:20,148 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:30:20,148 Connection pool is full, discarding connection: api.telegram.org
+2020-01-31 18:30:20,151 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:30:20,151 Exiting: get_me
+2020-01-31 18:31:20,032 salam
+2020-01-31 18:31:20,054 Entering: get_me
+2020-01-31 18:31:20,061 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:31:20,092 Entering: get_me
+2020-01-31 18:31:20,093 Starting new HTTPS connection (2): api.telegram.org
+2020-01-31 18:31:21,529 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:31:21,538 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:31:21,540 Exiting: get_me
+2020-01-31 18:31:21,647 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:31:21,647 Connection pool is full, discarding connection: api.telegram.org
+2020-01-31 18:31:21,649 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:31:21,649 Exiting: get_me
+2020-01-31 18:31:33,753 127.0.0.1 - - [31/Jan/2020 18:31:33] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:31:34,965 127.0.0.1 - - [31/Jan/2020 18:31:34] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:32:46,340  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:40:05,500 salam
+2020-01-31 18:40:05,537 Entering: get_me
+2020-01-31 18:40:05,542 Entering: get_me
+2020-01-31 18:40:05,548 Starting new HTTPS connection (2): api.telegram.org
+2020-01-31 18:40:05,549 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:40:07,013 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:40:07,013 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:40:07,013 Exiting: get_me
+2020-01-31 18:40:07,038 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:40:07,054 Connection pool is full, discarding connection: api.telegram.org
+2020-01-31 18:40:07,064 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:40:07,066 Exiting: get_me
+2020-01-31 18:41:09,279 salam
+2020-01-31 18:41:09,315 Entering: get_me
+2020-01-31 18:41:09,322 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:41:09,357 Entering: get_me
+2020-01-31 18:41:09,357 Starting new HTTPS connection (2): api.telegram.org
+2020-01-31 18:41:10,785 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:41:10,795 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:41:10,797 Exiting: get_me
+2020-01-31 18:41:11,037 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:41:11,037 Connection pool is full, discarding connection: api.telegram.org
+2020-01-31 18:41:11,039 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:41:11,039 Exiting: get_me
+2020-01-31 18:41:15,491 127.0.0.1 - - [31/Jan/2020 18:41:15] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:41:16,105 127.0.0.1 - - [31/Jan/2020 18:41:16] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:41:39,664 salam
+2020-01-31 18:41:39,699 Entering: get_me
+2020-01-31 18:41:39,707 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:41:39,713 Entering: get_me
+2020-01-31 18:41:39,713 Starting new HTTPS connection (2): api.telegram.org
+2020-01-31 18:41:41,198 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:41:41,207 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:41:41,209 Exiting: get_me
+2020-01-31 18:41:41,287 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:41:41,288 Connection pool is full, discarding connection: api.telegram.org
+2020-01-31 18:41:41,290 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:41:41,290 Exiting: get_me
+2020-01-31 18:42:41,663 salam
+2020-01-31 18:42:41,698 Entering: get_me
+2020-01-31 18:42:41,705 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:42:41,799 Entering: get_me
+2020-01-31 18:42:41,804 Starting new HTTPS connection (2): api.telegram.org
+2020-01-31 18:42:41,839 Entering: get_me
+2020-01-31 18:42:41,844 Starting new HTTPS connection (3): api.telegram.org
+2020-01-31 18:42:43,252 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:42:43,262 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:42:43,264 Exiting: get_me
+2020-01-31 18:42:43,342 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:42:43,352 Connection pool is full, discarding connection: api.telegram.org
+2020-01-31 18:42:43,357 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:42:43,359 Exiting: get_me
+2020-01-31 18:42:43,455 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:42:43,464 Connection pool is full, discarding connection: api.telegram.org
+2020-01-31 18:42:43,469 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:42:43,471 Exiting: get_me
+2020-01-31 18:43:37,791 127.0.0.1 - - [31/Jan/2020 18:43:37] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:43:37,803 127.0.0.1 - - [31/Jan/2020 18:43:37] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:43:52,842  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:44:11,448 salam
+2020-01-31 18:44:11,474 Entering: get_me
+2020-01-31 18:44:11,482 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:44:13,024 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:44:13,043 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:44:13,046 Exiting: get_me
+2020-01-31 18:45:13,278 salam
+2020-01-31 18:45:13,312 Entering: get_me
+2020-01-31 18:45:13,320 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:45:14,875 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:45:14,884 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:45:14,886 Exiting: get_me
+2020-01-31 18:45:16,366 127.0.0.1 - - [31/Jan/2020 18:45:16] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:45:17,368 127.0.0.1 - - [31/Jan/2020 18:45:17] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:48:13,782  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:49:21,082 salam
+2020-01-31 18:49:21,119 Entering: get_me
+2020-01-31 18:49:21,126 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:49:22,659 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:49:22,670 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:49:22,672 Exiting: get_me
+2020-01-31 18:49:40,681 127.0.0.1 - - [31/Jan/2020 18:49:40] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:50:22,068 salam
+2020-01-31 18:50:22,107 Entering: get_me
+2020-01-31 18:50:22,120 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:50:23,602 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:50:23,613 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:50:25,089 Exiting: get_me
+2020-01-31 18:50:28,219 127.0.0.1 - - [31/Jan/2020 18:50:28] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:50:51,732 salam
+2020-01-31 18:50:51,767 Entering: get_me
+2020-01-31 18:50:51,776 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:50:53,241 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:50:53,250 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:50:53,252 Exiting: get_me
+2020-01-31 18:51:16,422  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:51:19,005 salam
+2020-01-31 18:51:19,041 Entering: get_me
+2020-01-31 18:51:19,050 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:51:20,546 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:51:20,559 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:51:20,561 Exiting: get_me
+2020-01-31 18:52:10,645 127.0.0.1 - - [31/Jan/2020 18:52:10] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:52:16,232  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:52:34,881 salam
+2020-01-31 18:52:34,918 Entering: get_me
+2020-01-31 18:52:34,930 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:52:36,402 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:52:36,415 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:52:36,417 Exiting: get_me
+2020-01-31 18:52:41,728 127.0.0.1 - - [31/Jan/2020 18:52:41] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:52:50,822 salam
+2020-01-31 18:52:50,858 Entering: get_me
+2020-01-31 18:52:50,867 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:52:52,359 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:52:52,368 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:52:52,370 Exiting: get_me
+2020-01-31 18:53:52,836 salam
+2020-01-31 18:53:52,860 Entering: get_me
+2020-01-31 18:53:52,866 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:53:54,363 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:53:54,372 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:53:54,374 Exiting: get_me
+2020-01-31 18:54:10,022 127.0.0.1 - - [31/Jan/2020 18:54:10] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:54:11,245 127.0.0.1 - - [31/Jan/2020 18:54:11] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:55:01,881  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 18:55:32,743 salam
+2020-01-31 18:55:32,780 Entering: get_me
+2020-01-31 18:55:32,788 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 18:55:34,310 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 18:55:34,322 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 18:55:34,324 Exiting: get_me
+2020-01-31 18:55:56,554 127.0.0.1 - - [31/Jan/2020 18:55:56] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 18:56:19,288  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 20:06:00,188 salam
+2020-01-31 20:06:00,227 Entering: get_me
+2020-01-31 20:06:00,235 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:06:01,720 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 20:06:01,732 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:06:01,735 Exiting: get_me
+2020-01-31 20:06:06,897 127.0.0.1 - - [31/Jan/2020 20:06:06] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 500 -
+2020-01-31 20:06:10,419 salam
+2020-01-31 20:06:10,443 Entering: get_me
+2020-01-31 20:06:10,449 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:06:11,908 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 20:06:11,917 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:06:11,919 Exiting: get_me
+2020-01-31 20:06:22,452 127.0.0.1 - - [31/Jan/2020 20:06:22] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 500 -
+2020-01-31 20:06:27,761 salam
+2020-01-31 20:06:27,795 Entering: get_me
+2020-01-31 20:06:27,803 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:06:29,291 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 20:06:29,300 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:06:29,302 Exiting: get_me
+2020-01-31 20:06:31,195 127.0.0.1 - - [31/Jan/2020 20:06:31] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 500 -
+2020-01-31 20:06:40,285 salam
+2020-01-31 20:06:40,320 Entering: get_me
+2020-01-31 20:06:40,326 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:06:41,838 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 20:06:41,847 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:06:41,849 Exiting: get_me
+2020-01-31 20:07:39,045 Entering: send_message
+2020-01-31 20:07:39,429 https://api.telegram.org:443 "POST /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/sendMessage HTTP/1.1" 200 268
+2020-01-31 20:07:39,430 {'message_id': 21, 'date': 1580488659, 'chat': {'id': 245549956, 'type': 'private', 'username': 'Saeb_m', 'first_name': 'Saeb', 'last_name': 'Molaee'}, 'text': '111', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}}
+2020-01-31 20:07:39,430 Exiting: send_message
+2020-01-31 20:07:41,088  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 20:07:56,443 salam
+2020-01-31 20:07:56,480 Entering: get_me
+2020-01-31 20:07:56,493 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:07:58,015 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 20:07:58,027 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:07:58,029 Exiting: get_me
+2020-01-31 20:08:04,174  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 20:08:24,225 salam
+2020-01-31 20:08:24,264 Entering: get_me
+2020-01-31 20:08:24,277 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:08:25,893 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 20:08:25,906 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:08:25,908 Exiting: get_me
+2020-01-31 20:08:28,867 Entering: send_message
+2020-01-31 20:08:29,265 https://api.telegram.org:443 "POST /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/sendMessage HTTP/1.1" 200 484
+2020-01-31 20:08:29,267 {'message_id': 23, 'date': 1580488709, 'chat': {'id': 245549956, 'type': 'private', 'username': 'Saeb_m', 'first_name': 'Saeb', 'last_name': 'Molaee'}, 'text': 'short url for \nhttps://cloud.mongodb.com/freemonitoring/cluster/7U5ZAP2PRW5CWFCOVR4NKNJOKWCGK6XK\n is :\nhttps://kutt.it/sm708', 'entities': [{'type': 'url', 'offset': 15, 'length': 81}, {'type': 'url', 'offset': 103, 'length': 21}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}}
+2020-01-31 20:08:29,267 Exiting: send_message
+2020-01-31 20:08:30,667 Entering: send_message
+2020-01-31 20:08:31,073 https://api.telegram.org:443 "POST /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/sendMessage HTTP/1.1" 200 421
+2020-01-31 20:08:31,075 {'message_id': 24, 'date': 1580488710, 'chat': {'id': 245549956, 'type': 'private', 'username': 'Saeb_m', 'first_name': 'Saeb', 'last_name': 'Molaee'}, 'text': 'short url for \nhttp://j.mp/372sUHe\n is :\nhttps://kutt.it/sm710', 'entities': [{'type': 'url', 'offset': 15, 'length': 19}, {'type': 'url', 'offset': 41, 'length': 21}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}}
+2020-01-31 20:08:31,076 Exiting: send_message
+2020-01-31 20:08:31,079 127.0.0.1 - - [31/Jan/2020 20:08:31] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 20:08:36,571 salam
+2020-01-31 20:08:36,596 Entering: get_me
+2020-01-31 20:08:36,607 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:08:38,110 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 20:08:38,129 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:08:38,130 Exiting: get_me
+2020-01-31 20:08:48,625 Entering: send_message
+2020-01-31 20:08:49,032 https://api.telegram.org:443 "POST /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/sendMessage HTTP/1.1" 200 484
+2020-01-31 20:08:49,033 {'message_id': 25, 'date': 1580488728, 'chat': {'id': 245549956, 'type': 'private', 'username': 'Saeb_m', 'first_name': 'Saeb', 'last_name': 'Molaee'}, 'text': 'short url for \nhttps://cloud.mongodb.com/freemonitoring/cluster/7U5ZAP2PRW5CWFCOVR4NKNJOKWCGK6XK\n is :\nhttps://kutt.it/sm728', 'entities': [{'type': 'url', 'offset': 15, 'length': 81}, {'type': 'url', 'offset': 103, 'length': 21}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}}
+2020-01-31 20:08:49,034 Exiting: send_message
+2020-01-31 20:08:50,317 Entering: send_message
+2020-01-31 20:08:50,731 https://api.telegram.org:443 "POST /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/sendMessage HTTP/1.1" 200 421
+2020-01-31 20:08:50,733 {'message_id': 26, 'date': 1580488730, 'chat': {'id': 245549956, 'type': 'private', 'username': 'Saeb_m', 'first_name': 'Saeb', 'last_name': 'Molaee'}, 'text': 'short url for \nhttp://j.mp/372sUHe\n is :\nhttps://kutt.it/sm730', 'entities': [{'type': 'url', 'offset': 15, 'length': 19}, {'type': 'url', 'offset': 41, 'length': 21}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}}
+2020-01-31 20:08:50,734 Exiting: send_message
+2020-01-31 20:08:50,735 127.0.0.1 - - [31/Jan/2020 20:08:50] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 20:09:47,197 salam
+2020-01-31 20:09:47,231 Entering: get_me
+2020-01-31 20:09:47,243 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:09:49,627 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 20:09:49,636 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:09:49,638 Exiting: get_me
+2020-01-31 20:10:06,923 127.0.0.1 - - [31/Jan/2020 20:10:06] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 20:10:07,301 salam
+2020-01-31 20:10:07,335 Entering: get_me
+2020-01-31 20:10:07,341 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:10:08,865 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 201
+2020-01-31 20:10:08,873 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:10:08,875 Exiting: get_me
+2020-01-31 20:10:09,483 Entering: send_message
+2020-01-31 20:10:09,895 https://api.telegram.org:443 "POST /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/sendMessage HTTP/1.1" 200 422
+2020-01-31 20:10:09,897 {'message_id': 29, 'date': 1580488809, 'chat': {'id': 793005624, 'type': 'private', 'username': 'eshterakiii', 'first_name': '🇹🇷'}, 'text': 'short url for \nhttps://sae13.ir\n is :\nhttps://kutt.it/sm808', 'entities': [{'type': 'url', 'offset': 15, 'length': 16}, {'type': 'url', 'offset': 38, 'length': 21}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}}
+2020-01-31 20:10:09,898 Exiting: send_message
+2020-01-31 20:10:09,899 127.0.0.1 - - [31/Jan/2020 20:10:09] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 20:15:41,622  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/config.py', reloading
+2020-01-31 20:16:24,043 salam
+2020-01-31 20:16:24,064 127.0.0.1 - - [31/Jan/2020 20:16:24] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 500 -
+2020-01-31 20:16:26,030 salam
+2020-01-31 20:16:26,050 127.0.0.1 - - [31/Jan/2020 20:16:26] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 500 -
+2020-01-31 20:16:30,656 salam
+2020-01-31 20:16:30,676 127.0.0.1 - - [31/Jan/2020 20:16:30] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 500 -
+2020-01-31 20:16:32,654 salam
+2020-01-31 20:16:32,673 127.0.0.1 - - [31/Jan/2020 20:16:32] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 500 -
+2020-01-31 20:16:35,985 salam
+2020-01-31 20:16:36,006 127.0.0.1 - - [31/Jan/2020 20:16:36] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 500 -
+2020-01-31 20:16:41,961 salam
+2020-01-31 20:16:41,979 127.0.0.1 - - [31/Jan/2020 20:16:41] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 500 -
+2020-01-31 20:16:45,558 salam
+2020-01-31 20:16:45,604 Entering: get_me
+2020-01-31 20:16:45,612 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:16:47,624 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 200
+2020-01-31 20:16:47,636 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:16:47,638 Exiting: get_me
+2020-01-31 20:17:45,876 salam
+2020-01-31 20:17:45,909 Entering: get_me
+2020-01-31 20:17:45,916 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:17:47,441 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 200
+2020-01-31 20:17:47,452 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:17:47,454 Exiting: get_me
+2020-01-31 20:19:48,959 salam
+2020-01-31 20:19:48,997 Entering: get_me
+2020-01-31 20:19:49,005 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:19:50,497 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 200
+2020-01-31 20:19:50,510 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:19:50,512 Exiting: get_me
+2020-01-31 20:20:25,749 127.0.0.1 - - [31/Jan/2020 20:20:25] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 20:20:26,104 salam
+2020-01-31 20:20:26,127 Entering: get_me
+2020-01-31 20:20:26,135 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:20:27,670 Entering: get_me
+2020-01-31 20:20:27,674 Starting new HTTPS connection (2): api.telegram.org
+2020-01-31 20:20:27,897 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 200
+2020-01-31 20:20:27,906 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:20:27,908 Exiting: get_me
+2020-01-31 20:20:28,339 127.0.0.1 - - [31/Jan/2020 20:20:28] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 20:20:29,270 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 200
+2020-01-31 20:20:29,281 Connection pool is full, discarding connection: api.telegram.org
+2020-01-31 20:20:29,286 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:20:29,288 Exiting: get_me
+2020-01-31 20:20:34,171 salam
+2020-01-31 20:20:34,205 Entering: get_me
+2020-01-31 20:20:34,212 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:20:35,669 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 200
+2020-01-31 20:20:35,678 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:20:35,680 Exiting: get_me
+2020-01-31 20:20:37,307 salam
+2020-01-31 20:20:37,331 Entering: get_me
+2020-01-31 20:20:37,337 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:20:39,249 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 200
+2020-01-31 20:20:39,258 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:20:39,260 Exiting: get_me
+2020-01-31 20:20:48,587 127.0.0.1 - - [31/Jan/2020 20:20:48] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 20:20:48,597 127.0.0.1 - - [31/Jan/2020 20:20:48] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 20:20:58,911 salam
+2020-01-31 20:21:45,339 127.0.0.1 - - [31/Jan/2020 20:21:45] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 20:22:31,193 salam
+2020-01-31 20:22:31,220 Entering: get_me
+2020-01-31 20:22:31,228 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:22:32,709 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 200
+2020-01-31 20:22:32,722 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:22:32,724 Exiting: get_me
+2020-01-31 20:23:06,703 127.0.0.1 - - [31/Jan/2020 20:23:06] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 500 -
+2020-01-31 20:23:32,959 salam
+2020-01-31 20:23:32,996 Entering: get_me
+2020-01-31 20:23:33,005 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:23:34,504 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 200
+2020-01-31 20:23:34,517 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:23:34,519 Exiting: get_me
+2020-01-31 20:24:12,689 127.0.0.1 - - [31/Jan/2020 20:24:12] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 20:24:52,053  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
+2020-01-31 20:24:56,110 salam
+2020-01-31 20:24:56,148 Entering: get_me
+2020-01-31 20:24:56,162 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:24:57,656 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 200
+2020-01-31 20:24:57,669 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:24:57,671 Exiting: get_me
+2020-01-31 20:25:50,452 127.0.0.1 - - [31/Jan/2020 20:25:50] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 20:25:50,800 salam
+2020-01-31 20:25:50,824 Entering: get_me
+2020-01-31 20:25:50,832 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:25:51,085 salam
+2020-01-31 20:25:51,089 salam
+2020-01-31 20:25:51,144 Entering: get_me
+2020-01-31 20:25:51,150 Starting new HTTPS connection (1): api.telegram.org
+2020-01-31 20:25:52,328 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 200
+2020-01-31 20:25:52,338 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:25:52,340 Exiting: get_me
+2020-01-31 20:25:52,668 https://api.telegram.org:443 "GET /bot852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc/getMe HTTP/1.1" 200 200
+2020-01-31 20:25:52,678 {'id': 852783819, 'first_name': 'kutt.it link shorter', 'is_bot': True, 'username': 'kuttrobot'}
+2020-01-31 20:25:52,680 Exiting: get_me
+2020-01-31 20:25:54,089 127.0.0.1 - - [31/Jan/2020 20:25:54] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 20:25:54,091 127.0.0.1 - - [31/Jan/2020 20:25:54] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 20:25:54,092 127.0.0.1 - - [31/Jan/2020 20:25:54] "POST /api/v1/852783819:AAHSdtyqVX9uC_9C8YSpQ-KAM8qLmWSmDmc HTTP/1.1" 200 -
+2020-01-31 20:32:17,708  * Detected change in '/home/saeb/Arch/saeb/Documents/py/tg/bot/kuttit/app.py', reloading
