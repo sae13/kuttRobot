@@ -1,3 +1,4 @@
+from pprint import pprint
 def short_url(url):
     import validators
     from time import time
@@ -19,8 +20,14 @@ def short_url(url):
         tries += 1
         if tries > 4: del body['customurl']
         resp = post(KuttConfig.kuttItUrl, data=dumps(body), headers=header)
+        if tries > 5 : raise Exception("CantMake")
         sub = -5
         rand_int = int(str(int(time()))[sub:])
         respStatus = resp.status_code
 
-    return loads(resp.content)['link']
+
+    return loads(resp.content)
+
+
+if __name__ == "__main__":
+    pprint(short_url('https://sae13.ir'))

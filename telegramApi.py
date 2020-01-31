@@ -18,15 +18,10 @@ def return_telethon_telegram_bot(filterim=True):
 
 
 def return_python_telegram_bot(filterim=True):
-    import logging
-    logging.basicConfig(filename='telegram.log',
-                        level=logging.DEBUG,
-                        format='%(asctime)-15s %(message)s'
-                        )
+
     from config import KuttConfig
     from telegram import Bot
     from telegram.utils.request import Request
-    logging.log(logging.DEBUG, 'salam')
     if filterim:
         return Bot(KuttConfig.tgSecret, request=Request(proxy_url=KuttConfig.proxy))
     return Bot(KuttConfig.tgSecret)
